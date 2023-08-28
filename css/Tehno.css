@@ -1,0 +1,794 @@
+.container-fluid {
+  background: rgb(0, 0, 0) url("../img/DSC09684\ 1.png");
+
+  height: 780px;
+  width: 100%;
+}
+.container-fluid-2 {
+  background: rgb(0, 0, 0) url("../img/фото-главный2.png");
+
+  height: 780px;
+  width: 100%;
+}
+.container-fluid-3 {
+  background: rgb(0, 0, 0) url("../img/foto-3гланый.png");
+
+  height: 780px;
+  width: 100%;
+}
+.btn {
+  width: 30px;
+  height: 30px;
+  position: relative;
+  top: 15px;
+  left: 326px;
+  z-index: 2;
+  overflow: hidden;
+  background-color: black;
+}
+.btn span {
+  width: 30px;
+  height: 3px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  transition: all 0.5s;
+}
+.btn span:nth-of-type(2) {
+  top: calc(50% - 8px);
+}
+.btn span:nth-of-type(3) {
+  top: calc(50% + 8px);
+}
+.text-burger {
+  color: white;
+  text-decoration: none;
+}
+.li-mr {
+  margin-bottom: 10px;
+  margin-left: -40px;
+}
+.menu {
+  position: fixed;
+  top: 0;
+  left: 0%;
+  width: 250px;
+  height: 350px;
+  padding: 15px;
+  background: rgba(24, 24, 24, 0.95);
+  transform: translateY(-100%);
+  transition: transform 0.5s;
+}
+.menu.active {
+  transform: translateX(0);
+}
+.menu li {
+  list-style-type: none;
+}
+.btn span:nth-of-type(1) {
+  width: 22px;
+  left: 22px;
+}
+.btn.active span:nth-of-type(1) {
+  display: none;
+}
+.btn.active span:nth-of-type(2) {
+  top: 50%;
+  transform: translate(-50%, 0%) rotate(45deg);
+}
+.btn.active span:nth-of-type(3) {
+  top: 50%;
+  transform: translate(-50%, 0%) rotate(-45deg);
+}
+
+/* LOgo navbar */
+.dws-menu {
+  background-color: #1d1d1d;
+  width: 100%;
+  height: 100px;
+}
+ul.dws-ul {
+  display: flex;
+  padding: 0;
+  justify-content: center;
+}
+.li.dws-li {
+  list-style: none;
+  padding: 10px;
+}
+.li.dws-li a {
+  text-decoration: none;
+  font-size: 18px;
+  color: white;
+}
+
+.li.dws-li a:hover {
+  color: #d7b56d;
+}
+.active {
+  color: #ffd723;
+}
+.li-logo {
+  display: flex;
+  justify-content: center;
+}
+.tel {
+  color: #d7b56d;
+}
+.tel1 {
+  font-size: 12px;
+  color: #d7b56d;
+}
+/* slayder */
+.d-block1 {
+  width: 1536px;
+  height: 661px;
+
+  opacity: 0.1;
+}
+.TexT-Foto {
+  font-size: 70px !important;
+}
+.container2 {
+  display: flex;
+  justify-content: center;
+}
+/* Tehno-Wood в цифрах */
+.hr {
+  width: 15rem;
+  color: #d7b56d !important;
+  border: solid;
+  border-radius: 2px;
+  opacity: 25;
+}
+.text {
+  text-align-last: center;
+}
+.text1 {
+  position: relative;
+  left: 130px;
+}
+/* Принципи наши работи */
+.container-fluid2 {
+  background-color: #1d1d1d;
+  width: 100%;
+  height: 685px;
+}
+
+.text2 {
+  position: relative;
+  left: 130px;
+  color: white;
+}
+.border1 {
+  width: 422px;
+  height: 440px;
+
+  border: 0.5px solid #d7b56d;
+  border-radius: 2px;
+}
+.Text-P {
+  color: white;
+}
+.text-1 {
+  position: relative;
+  left: 350px;
+  font-size: 16px;
+}
+.hr2 {
+  width: 18rem;
+  color: rgba(255, 255, 255, 0.5) !important;
+  border-radius: 1px;
+  opacity: 1;
+}
+.color1 {
+  color: rgba(255, 255, 255, 0.5);
+}
+/* Изготовление мебели по индивидуальному исполнению */
+.container-fluid3 {
+  width: 100%;
+  background-color: #f4f3e4;
+  height: 1338px;
+}
+.hrhrhr {
+  width: 22rem;
+  color: black !important;
+  border: solid;
+  border-radius: 2px;
+  opacity: 25;
+}
+.text-iz {
+  font-size: 40px;
+}
+.Text-Mebel {
+  font-size: 16px;
+  line-height: 20px;
+}
+
+/* как мы производи мебель */
+.container-fluid4 {
+  width: 100%;
+  background-color: white;
+  height: 677px;
+}
+.hrhrhrborder {
+  width: 30rem;
+  color: #d7b56d !important;
+  border: solid;
+  border-radius: 2px;
+  opacity: 25;
+}
+.video {
+  width: 920px;
+  height: 600px;
+}
+/*  */
+.container-fluid5 {
+  width: 100%;
+  height: 762px;
+  left: 0px;
+  top: 3863px;
+
+  background: #1d1d1d;
+}
+.text-blok {
+  color: white;
+}
+.color-tel {
+  width: 378px;
+  height: 46px;
+
+  background-color: #4e4e4e;
+}
+.color-coment {
+  width: 378px;
+  height: 117px;
+  background-color: #4e4e4e;
+}
+.button-O {
+  width: 187px;
+  height: 46px;
+  background: #d7b56d;
+  border-radius: 2px;
+}
+.Checkbox {
+  width: 17px;
+  height: 17px;
+  background-color: #1f1f1f;
+  border: 2px solid #e7e7e7;
+}
+.foto-6 {
+  width: 505.77px;
+  height: 442.12px;
+  margin-top: 80px;
+  margin-left: 150px;
+}
+.border2 {
+  width: 505.77px;
+  height: 442.12px;
+  padding-left: 50px;
+  padding-top: 35px;
+
+  border: 0.5px solid #d7b56d;
+  border-radius: 2px;
+}
+/* Схема работы */
+.container-fluid6 {
+  width: 100%;
+  height: 322px;
+}
+.container-С {
+  width: 208px;
+  height: 106px;
+}
+.h1 {
+  display: flex;
+  justify-content: center;
+}
+.krug {
+  width: 45px;
+  height: 45px;
+  border: solid;
+  border-color: #d7b56d;
+  border-radius: 50%;
+  background-color: #d7b56d;
+  display: flex;
+  text-align-last: center;
+}
+.hrhrhrborder1 {
+  width: 138px;
+  height: 4px;
+  color: #d7b56d !important;
+  border: solid;
+  border-radius: 1px;
+  opacity: 25;
+  margin-left: 25px;
+}
+.display {
+  display: flex;
+  flex-wrap: wrap;
+  width: 1350px;
+}
+
+/* Слайдер */
+.swiper-container {
+  width: 750px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.swiper-slide {
+  width: 300px;
+}
+/* slider logo company */
+.container-fluid8 {
+  height: 630px;
+  width: 100%;
+  background-color: #f4f3e4;
+}
+/* География карта */
+.container-fluid9 {
+  background-color: #f4f3e4;
+  width: 100%;
+  height: 680px;
+}
+/* Благодарственные письма slider*/
+.container-fluid10 {
+  width: 100%;
+  height: 452px;
+}
+.wrapper {
+  height: 100%;
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 767px) {
+  .wrapper {
+    padding: 50px 10px;
+  }
+}
+
+/* Основные стили */
+
+/* Слайдер */
+.slick-slider {
+  min-width: 0;
+}
+/* Ограничивающая оболочка */
+.slick-list {
+  overflow: hidden;
+}
+/* Лента слайдов */
+.slick-track {
+  display: flex;
+  align-items: flex-start;
+}
+
+/* Конкретный слайдер */
+.slider {
+  position: relative;
+  padding: 0px 60px;
+}
+
+@media (max-width: 767px) {
+  .slider {
+    padding: 0px 40px;
+  }
+}
+
+.slider .slick-arrow {
+  position: absolute;
+  top: 50%;
+  margin: -30px 0px 0px 0px;
+  z-index: 10;
+  font-size: 0;
+  width: 30px;
+  height: 60px;
+}
+.slider .slick-arrow.slick-prev {
+  padding: 10px !important;
+  width: 35px;
+  height: 35px;
+  left: 0;
+  background: url("../icons/downward-arrow\ 1.png") 0 0 / 100% no-repeat;
+  border-radius: 50%;
+  background-color: #4e4e4e;
+  color: #4e4e4e;
+}
+.slider .slick-arrow.slick-next {
+  width: 35px;
+  height: 35px;
+  right: 0;
+  background: url("../icons/downward-arrow\ 1\ \(1\).png") 0 0 / 100% no-repeat;
+  border-radius: 50%;
+  background-color: #4e4e4e;
+  color: #4e4e4e;
+}
+.slider .slick-arrow.slick-disabled {
+  opacity: 0.2;
+}
+
+.slider .slick-dots {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.slider .slick-dots li {
+  list-style: none;
+  margin: 0px 10px;
+}
+.slider .slick-dots button {
+  font-size: 0;
+  width: 40px;
+  height: 2px;
+  background-color: #4e4e4e;
+  border-radius: 10px;
+}
+
+.slider .slick-dots li.slick-active button {
+  border: 1px solid #4e4e4e;
+}
+
+.slider__item {
+  padding: 0px 15px;
+}
+.slider__item img {
+  max-width: 100%;
+}
+/* Свяжитесь с нами любым 
+удобным способом  */
+/* Map Карта */
+.container-fluid11 {
+  width: 100%;
+  height: 450px;
+  background-color: #1d1d1d;
+}
+.container-tel {
+  width: 945px;
+  height: 450px;
+}
+.text-SSsss {
+  color: white;
+}
+.icon {
+  color: white;
+}
+.color-tel2 {
+  color: #4e4e4e;
+  width: 317px;
+  height: 46px;
+}
+.button1 {
+  background-color: #d7b56d;
+}
+
+/* Footer */
+.container-fluid12 {
+  width: 100%;
+  background-color: #1d1d1d;
+}
+
+/* -------------------------------- */
+
+@media (max-width: 375px) {
+  .li.dws-li {
+    display: none;
+  }
+
+  .TexT-Foto {
+    font-size: 70px !important;
+  }
+  .block {
+    flex-wrap: wrap;
+  }
+
+  .text1 {
+    left: 0px;
+  }
+  .hr {
+    width: 251.28px;
+  }
+  .text {
+    font-size: 14px;
+  }
+
+  .border1 {
+    margin: 0 !important;
+    padding: 5px !important;
+    width: 251.28px;
+    height: 262px;
+    margin-left: 10px !important;
+  }
+  .img-main {
+    width: 170.3px;
+    height: 113.73px;
+  }
+  .img-main2 {
+    width: 170.3px;
+    height: 113.73px;
+    margin-top: 0.5rem !important;
+  }
+  .img-main3 {
+    width: 166.34px;
+    height: 235.22px;
+    margin-left: 5px !important;
+  }
+  .block__img {
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+  .container-img__main {
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+  .text2 {
+    position: relative;
+    left: 0px;
+    color: white;
+  }
+  .text-1 {
+    position: relative;
+    left: -281px;
+    top: 274px;
+    font-size: 16px;
+  }
+  .container-fluid2 {
+    background-color: #1d1d1d;
+    width: 100%;
+    height: 906px;
+  }
+  .container-fluid3 {
+    width: 375px;
+    height: 1311px;
+  }
+  .con-text {
+    display: flex !important;
+    flex-wrap: wrap !important;
+  }
+  .container-block2 {
+    position: relative;
+    right: 20px;
+    bottom: 80px;
+    margin: 0 !important;
+  }
+  .img__1 {
+    width: 198.49px;
+    height: 192.43px;
+    margin: 0 !important;
+    padding-right: 15px;
+    padding-left: 5px;
+  }
+  .img__2 {
+    width: 134.05px;
+    height: 192.43px;
+    margin: 0 !important;
+  }
+  .img__3 {
+    display: none;
+  }
+  .container-block3 {
+    position: relative;
+    right: 110px;
+    bottom: 75px;
+    margin: 0 !important;
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  .img__5 {
+    display: none;
+  }
+  .img__4 {
+    width: 187px;
+    height: 93.41px;
+    position: absolute;
+  }
+  .img__6 {
+    width: 133.59px;
+    height: 93.41px;
+    margin: 0 !important;
+  }
+  .container-block4 {
+    position: relative;
+    right: 110px;
+    bottom: 75px;
+    margin: 0 !important;
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 0 !important;
+    bottom: 67px;
+    margin: 0 !important;
+  }
+  .img__8 {
+    width: 133.59px;
+    height: 93.41px;
+    margin: 0 !important;
+    position: absolute;
+    left: 120px;
+  }
+  .img__7 {
+    width: 187.49px;
+    height: 93.41px;
+    margin: 0 !important;
+    position: absolute;
+    left: 258px;
+  }
+
+  .container-block5 {
+    margin-top: 300px;
+    flex-wrap: wrap;
+  }
+  .title {
+    font-size: 14px !important;
+
+    width: 339px !important;
+    height: 60px !important;
+  }
+  .hrhrhrborder {
+    width: 300px !important;
+    height: 2px !important;
+  }
+  .text-kak {
+    font-size: 20px !important;
+  }
+  .video {
+    width: 339px;
+    height: 280.82px;
+  }
+  .title {
+    width: 339px;
+    height: 181px;
+    line-height: 120%;
+  }
+  .container-blok {
+    flex-wrap: wrap-reverse;
+  }
+  .border2 {
+    width: 272px !important;
+    height: 219px !important;
+    padding: 0 !important;
+  }
+  .foto-6 {
+    width: 304px;
+    height: 237.62px;
+    margin: 0;
+    margin-right: 25px;
+    padding-left: 35px;
+    padding-top: 15px;
+  }
+  .hrhrhrborder {
+    width: 21rem;
+  }
+  .text-blok {
+    padding: 0 !important;
+  }
+  .text-reali {
+    position: relative;
+    top: -300px;
+    font-size: 20px;
+    margin: 0 !important;
+    left: 60px;
+  }
+  .text-priglas {
+    position: relative;
+    margin: 0 !important;
+    font-size: 14px;
+    text-align: center;
+    bottom: 50px;
+  }
+  .color-tel {
+    width: 336px;
+    height: 46px;
+    margin: 0 !important;
+    position: relative;
+    bottom: 30px;
+    left: 10px;
+  }
+  .color-coment {
+    width: 336px;
+    height: 117px;
+    position: relative;
+    bottom: 35px;
+    left: 10px;
+  }
+  .svg-svg {
+    width: 138px;
+    height: 18px;
+    left: 11px;
+    position: relative;
+    bottom: 40px;
+  }
+  .button-O {
+    position: relative;
+    bottom: 30px;
+    left: 104px;
+    width: 153px;
+    height: 38px;
+    margin: 0 !important;
+  }
+  .display {
+    width: 375px;
+    height: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .containers-С {
+    padding: 0 !important;
+  }
+  .krug {
+    width: 30px;
+    height: 30px;
+  }
+  .hrhrhrborder1 {
+    width: 100px;
+    height: 3px;
+  }
+  .text-rakam {
+    font-size: 14px;
+  }
+  .text-tipografiy {
+    font-size: 12px;
+  }
+
+  .container-fluid6 {
+    width: 375px;
+    height: 340px;
+    margin-top: 47px;
+  }
+  .container-fluid7 {
+    margin-top: 325px;
+  }
+  .container-fluid8 {
+    width: 375px;
+    height: 300px;
+  }
+  .text-geografiy {
+    font-size: 20px;
+  }
+  .container-fluid9 {
+    width: 375px;
+    height: 293px;
+  }
+  .text-blagadarnost {
+    font-size: 20px;
+  }
+  .block__map {
+    width: 360px;
+    height: 193px;
+  }
+  .container-fluid11 {
+    flex-wrap: wrap;
+  }
+  .text-SSsss {
+    font-size: 20px !important;
+
+    color: white;
+  }
+  .footer__img {
+    width: 375px !important;
+    height: 140px !important;
+    margin-top: 10px;
+  }
+  .container-tel {
+    width: 375px;
+    height: 300px;
+    padding: 0 !important;
+  }
+
+  .color-tel2 {
+    color: #4e4e4e;
+    width: 219px;
+    height: 46px;
+  }
+  .button1 {
+    width: 150px;
+    height: 46px;
+  }
+  .container-fluid7 {
+    display: none;
+  }
+}
